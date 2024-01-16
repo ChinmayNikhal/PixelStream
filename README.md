@@ -1,2 +1,2 @@
 # PixelStream
-A livestreaming app written in Python
+A livestreaming app written in Python.
