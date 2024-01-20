@@ -44,5 +44,5 @@ class VideoStreamClient:
         cv2.destroyAllWindows()
 
 # Create and start the client
-client = VideoStreamClient('192.168.00.00', 8888)  # Replace with actual server IP
+client = VideoStreamClient('192.168.0.0', 8888)  # Replace with actual server IP
 client.start()

@@ -31,7 +31,7 @@ class ChatClient:
             print("Connection to server lost")
 
 if __name__ == "__main__":
-    client = ChatClient("192.168.0.102", 8080)  # Replace with server's host and port
+    client = ChatClient("192.168.0.0", 8080)  # Replace with server's host and port
     client.connect()
     client.get_username()
     

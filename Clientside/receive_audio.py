@@ -1,9 +1,8 @@
 import pyaudio
 import socket
-import time
 
 class AudioStreamClient:
-    def __init__(self, host='192.168.64.159', port=8080):
+    def __init__(self, host='192.168.0.0', port=8080):
         self.host = host
         self.port = port
         self.audio_started = False  # Flag to track stream status

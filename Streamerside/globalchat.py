@@ -28,5 +28,5 @@ class GlobalChat:
 
 # Example usage:
 if __name__ == "__main__":
-    global_chat = GlobalChat("192.168.0.102", 8080)  # Replace with server's host and port
+    global_chat = GlobalChat("192.168.0.0", 8080)  # Replace with server's host and port
     global_chat.run()
